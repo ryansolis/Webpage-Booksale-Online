@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BooKing</title>
+		<meta charset = "utf-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale = 1">
+		
+		
+		<link rel = "stylesheet" type="text/css" href="bootstrap-4.4.1-dist\css\bootstrap.min.css">
+		<script type="text/javascript" src = "bootstrap-4.4.1-dist\js\bootstrap.min.js"></script>
+		<script type="text/javascript" src = "oform-validation.js"></script>
+		
+		<style>
+			.custom-control-input:checked ~ .custom-control-label::before {
+			  color: #fff;
+			  border-color:darkorange;
+			  background-color: darkorange;
+			}
+			.lh-condensed { line-height: 1.25; }
+			.text-colo{color: white;}
+			.text-colo a{
+				text-decoration-line: :none;
+				color: white;
+			}
+        
+                
+                .bg-img {
+                  /* The image used */
+                  background-image: url("homepic.png");
+                
+                  height: 950px;
+                  width: 1500px;
+                
+                  /* Center and scale the image nicely */
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  
+                  /* Needed to position the navbar */
+                  position: relative;
+                }
+                
+                /* Position the navbar container inside the image */
+                .topnav {
+                  position: absolute;
+                  margin: 4px 0px 0px 650px;
+                  width: auto;
+                }
+                
+                
+                
+                
+        </style>
+	</head>
+	<body>
+		
+			<!--menu-->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			  	<a class="navbar-brand" href="#">BOOKing</a>
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 			aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+			  	</button>
+
+			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    	<ul class="navbar-nav mr-auto">
+			      		<li class="nav-item">
+			        		<a class="nav-link active" href="home.html">Home <span class="sr-only">(current)</span></a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="booking.html">Rent</a>
+			      		</li>
+			      		<li class="nav-item ">
+			        		<a class="nav-link" href="rent_out.html">Rent-out</a>
+                        </li>
+                        <li class="nav-item">
+			        		<a class="nav-link" href="donate.html">Donate</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="#">Manage Rentals</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="#">Cart</a>
+			      		</li>
+			      		
+			    	</ul>
+			    	<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				  </form>
+			  	</div>
+			</nav>
+	
+
+			
+                <div class="bg-img"></div>
+                <div class="topnav">
+                   
+                            <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                              </form>
+                   
+                </div>
+                
+				  	
+		    <!--<img class="d-block mx-auto" src="homepic.png" alt="" width="1349.3px" height="700px">
+            <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>-->
+
+		  	<footer class="mt-5 pt-3 text-muted text-center text-small bg-dark text-colo">
+		    	<ul class="list-inline">
+			      	<li class="list-inline-item"><a href="#">Home</a></li> |
+			      	<li class="list-inline-item"><a href="#">Search</a></li> |
+			      	<li class="list-inline-item"><a href="#">Books</a></li> |
+			      	<li class="list-inline-item"><a href="#">Donations</a></li> |
+			      	<li class="list-inline-item"><a href="#">Support</a></li> |
+			      	<li class="list-inline-item"><a href="#">FAQS</a></li> |
+			      	<li class="list-inline-item"><a href="#">Contact Us</a></li> 
+		    	</ul>
+		    	<p class="mb-0">&copy; 2020 <a href="#"><strong>BOOKing</strong></a></p>
+		  	</footer>
+			
+		
+	</body>
+
+<html>
